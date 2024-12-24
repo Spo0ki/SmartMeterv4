@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MyForm.cpp" />
+    <ClCompile Include="powerfactor.cpp" />
+    <ClCompile Include="periodic2.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="alarm2.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="cost.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="energy.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="filteration.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="powerc.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Read_CSV.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="variables.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MyForm.h" />
+    <ClInclude Include="alarm.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="powerfactor.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="periodic2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="alarm2.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="cost.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="energy.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="filteration.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="modules.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="powerc.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="Read_CSV.h">
+      <Filter>header</Filter>
+    </ClInclude>
+    <ClInclude Include="variables.h">
+      <Filter>header</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="header">
+      <UniqueIdentifier>{2b23c19d-e3b0-43a2-a345-a80290156895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{741a76d1-e84e-474b-b04e-2cc5f225191a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
